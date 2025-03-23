@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #4b0082, #000000, #2c3e50);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: white;
+}
+
+header h2 {
+  margin: 10px 0 0;
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+header h3 {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #ccc;
+}
+
+/* Teacher Cards */
+.teacher-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.teacher-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.teacher-card:hover {
+  transform: translateY(-10px);
+}
+
+.circle-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden; /* Ensures the image stays within the circle */
+  margin: 0 auto 15px;
+}
+
+.circle-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the circle */
+}
+
+.teacher-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.teacher-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.visit-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #00ffff, #000000);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.visit-button:hover {
+  background: linear-gradient(135deg, #000, #333);
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+footer .black-text {
+  color: white;
+  font-weight: bold; /* Removed bold */
+}
+
+footer .social-links {
+  margin-top: 10px;
+}
+
+footer .social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+footer .social-links a:hover {
+  color: #4b0082;
+}
+
+footer .social-links i {
+  margin-right: 5px;
+}
